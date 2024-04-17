@@ -1,1 +1,78 @@
 /* your code here */
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .product__photo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .photo-container {
+      flex: 1 1 300px;
+      margin-right: 20px;
+    }
+    .photo-main > img {
+      width: 100%;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+    }
+    .photo-album > ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .photo-album > ul > li {
+      flex: 1 1 150px;
+      margin-right: 10px;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .variant {
+      margin-bottom: 20px;
+    }
+    .variant table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .variant th, .variant td {
+      padding: 8px;
+      text-align: left;
+    }
+    .variant th {
+      background-color: #f2f2f2;
+    }
+    .variant td {
+      border-bottom: 1px solid #ddd;
+    }
+    .description {
+      margin-bottom: 20px;
+    }
+    .add-to-cart {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
